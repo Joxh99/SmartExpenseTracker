@@ -1,1 +1,1 @@
-# SmartExpenseTracker
+# SmartExpenseTracker (Accountant)
