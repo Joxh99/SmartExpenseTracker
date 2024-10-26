@@ -14,264 +14,77 @@ Screenshots
 System Artifacts and Technical Design
 Development Process
 
-System Overview
+##System Overview
+
 The Smart Expense Tracker integrates AI and gamification for a unique expense-tracking experience. The app simplifies budgeting by automating categorization, providing real-time insights, and encouraging financial discipline through achievements.
 
-Key Components
+##Key Components
+
 AI Categorization: Automatically categorizes expenses using TensorFlow Lite, helping users avoid manual entry.
 Gamification: Encourages users to manage finances actively by awarding badges for milestones.
 Real-Time Insights: Visualizations and insights on spending patterns enable better financial decision-making.
 
-Installation and Setup
-Prerequisites
+###Installation and Setup
+
+#####Prerequisites
+
 Flutter SDK: Install Flutter
 Android Studio or Xcode (for iOS)
 Firebase: Set up Firebase for Android and iOS platforms.
-Steps
+
+######Steps
 Clone the Repository:
-
-bash
-Copy code
 git clone https://github.com/Joxh99/SmartExpenseTracker.git
+
 cd SmartExpenseTracker
+
 Install Dependencies:
-
-bash
-Copy code
 flutter pub get
-Set Up Firebase:
 
+Set Up Firebase:
 Download google-services.json from Firebase Console and place it in android/app.
 Download GoogleService-Info.plist for iOS and place it in ios/Runner.
-Run the App:
 
-bash
-Copy code
+Run the App:
 flutter run
 
+##Features
 
-Here’s an updated README.md structure based on your provided sections, tailored for the Smart Expense Tracker project:
-
-Smart Expense Tracker (Accountant)
-
-A comprehensive mobile application that assists users in managing their expenses effectively through budgeting, tracking, AI-driven insights, and gamification features.
-
-Table of Contents
-System Overview
-Installation and Setup
-Features
-Firebase Configuration
-Usage
-Screenshots
-System Artifacts and Technical Design
-Development Process
-Contributing
-License
-System Overview
-The Smart Expense Tracker mobile application allows users to manage and track their expenses effectively. Through a user-friendly interface, users can add expenses, set budgets, track recurring expenses, and benefit from AI-driven insights that help maintain financial discipline.
-
-This project combines robust Flutter development practices with Firebase integration, offering a reliable and scalable solution for expense tracking and analysis.
-
-Installation and Setup
-Prerequisites
-Flutter SDK: Install Flutter
-Android Studio or Xcode (for iOS)
-Firebase: Set up Firebase for Android and iOS platforms.
-Steps
-Clone the Repository:
-
-bash
-Copy code
-git clone https://github.com/Joxh99/SmartExpenseTracker.git
-cd SmartExpenseTracker
-Install Dependencies:
-
-bash
-Copy code
-flutter pub get
-Set Up Firebase:
-
-Download google-services.json from Firebase Console and place it in android/app.
-Download GoogleService-Info.plist for iOS and place it in ios/Runner.
-Run the App:
-
-bash
-Copy code
-flutter run
-Features
-Expense Tracking:
+###Expense Tracking:
 Track daily expenses with categories and amounts.
-Budgeting and Notifications:
+
+###Budgeting and Notifications:
 Set and manage category-specific budgets and receive alerts when limits are exceeded.
-Recurring Expenses Management:
+
+###Recurring Expenses Management:
 Manage recurring expenses with customizable frequencies (e.g., daily, weekly).
-AI-Driven Insights:
+
+###AI-Driven Insights:
 View spending recommendations and alerts for unusual spending patterns.
-Gamification Elements:
+
+###Gamification Elements:
 Earn badges for budgeting milestones and consistent tracking.
-Data Export and Reports:
+
+###Data Export and Reports:
 Generate and export expense reports by month or category.
-User Customization:
+
+###User Customization:
 Customize settings such as currency, notification preferences, and dark mode.
 
-Firebase Configuration
+##Firebase Configuration
 Ensure Firebase authentication and Firestore database are correctly set up in your Firebase Console to enable full functionality.
 
 Android: Place google-services.json in the android/app directory.
 iOS: Place GoogleService-Info.plist in the ios/Runner directory.
 
 
-Here’s an updated README.md structure based on your provided sections, tailored for the Smart Expense Tracker project:
-
-Smart Expense Tracker (Accountant)
-
-A comprehensive mobile application that assists users in managing their expenses effectively through budgeting, tracking, AI-driven insights, and gamification features.
-
-Table of Contents
-System Overview
-Installation and Setup
-Features
-Firebase Configuration
-Usage
-Screenshots
-System Artifacts and Technical Design
-Development Process
-Contributing
-License
-System Overview
-The Smart Expense Tracker mobile application allows users to manage and track their expenses effectively. Through a user-friendly interface, users can add expenses, set budgets, track recurring expenses, and benefit from AI-driven insights that help maintain financial discipline.
-
-This project combines robust Flutter development practices with Firebase integration, offering a reliable and scalable solution for expense tracking and analysis.
-
-Installation and Setup
-Prerequisites
-Flutter SDK: Install Flutter
-Android Studio or Xcode (for iOS)
-Firebase: Set up Firebase for Android and iOS platforms.
-Steps
-Clone the Repository:
-
-bash
-Copy code
-git clone https://github.com/Joxh99/SmartExpenseTracker.git
-cd SmartExpenseTracker
-Install Dependencies:
-
-bash
-Copy code
-flutter pub get
-Set Up Firebase:
-
-Download google-services.json from Firebase Console and place it in android/app.
-Download GoogleService-Info.plist for iOS and place it in ios/Runner.
-Run the App:
-
-bash
-Copy code
-flutter run
-Features
-Expense Tracking:
-Track daily expenses with categories and amounts.
-Budgeting and Notifications:
-Set and manage category-specific budgets and receive alerts when limits are exceeded.
-Recurring Expenses Management:
-Manage recurring expenses with customizable frequencies (e.g., daily, weekly).
-AI-Driven Insights:
-View spending recommendations and alerts for unusual spending patterns.
-Gamification Elements:
-Earn badges for budgeting milestones and consistent tracking.
-Data Export and Reports:
-Generate and export expense reports by month or category.
-User Customization:
-Customize settings such as currency, notification preferences, and dark mode.
-Firebase Configuration
-Ensure Firebase authentication and Firestore database are correctly set up in your Firebase Console to enable full functionality.
-
-Android: Place google-services.json in the android/app directory.
-iOS: Place GoogleService-Info.plist in the ios/Runner directory.
-
-
-Usage
+###Usage
 Add Expenses: Navigate to the expense screen, enter details, and save.
 Set Budgets: Define budgets for different categories in the settings.
 Track Progress: View expense trends and earn badges as you track your spending.
 Generate Reports: Access monthly and category-wise expense reports for detailed insights.
 
-
-Here’s an updated README.md structure based on your provided sections, tailored for the Smart Expense Tracker project:
-
-Smart Expense Tracker (Accountant)
-
-A comprehensive mobile application that assists users in managing their expenses effectively through budgeting, tracking, AI-driven insights, and gamification features.
-
-Table of Contents
-System Overview
-Installation and Setup
-Features
-Firebase Configuration
-Usage
-Screenshots
-System Artifacts and Technical Design
-Development Process
-Contributing
-License
-System Overview
-The Smart Expense Tracker mobile application allows users to manage and track their expenses effectively. Through a user-friendly interface, users can add expenses, set budgets, track recurring expenses, and benefit from AI-driven insights that help maintain financial discipline.
-
-This project combines robust Flutter development practices with Firebase integration, offering a reliable and scalable solution for expense tracking and analysis.
-
-Installation and Setup
-Prerequisites
-Flutter SDK: Install Flutter
-Android Studio or Xcode (for iOS)
-Firebase: Set up Firebase for Android and iOS platforms.
-Steps
-Clone the Repository:
-
-bash
-Copy code
-git clone https://github.com/Joxh99/SmartExpenseTracker.git
-cd SmartExpenseTracker
-Install Dependencies:
-
-bash
-Copy code
-flutter pub get
-Set Up Firebase:
-
-Download google-services.json from Firebase Console and place it in android/app.
-Download GoogleService-Info.plist for iOS and place it in ios/Runner.
-Run the App:
-
-bash
-Copy code
-flutter run
-Features
-Expense Tracking:
-Track daily expenses with categories and amounts.
-Budgeting and Notifications:
-Set and manage category-specific budgets and receive alerts when limits are exceeded.
-Recurring Expenses Management:
-Manage recurring expenses with customizable frequencies (e.g., daily, weekly).
-AI-Driven Insights:
-View spending recommendations and alerts for unusual spending patterns.
-Gamification Elements:
-Earn badges for budgeting milestones and consistent tracking.
-Data Export and Reports:
-Generate and export expense reports by month or category.
-User Customization:
-Customize settings such as currency, notification preferences, and dark mode.
-Firebase Configuration
-Ensure Firebase authentication and Firestore database are correctly set up in your Firebase Console to enable full functionality.
-
-Android: Place google-services.json in the android/app directory.
-iOS: Place GoogleService-Info.plist in the ios/Runner directory.
-Usage
-Add Expenses: Navigate to the expense screen, enter details, and save.
-Set Budgets: Define budgets for different categories in the settings.
-Track Progress: View expense trends and earn badges as you track your spending.
-Generate Reports: Access monthly and category-wise expense reports for detailed insights.
-Screenshots
+##Screenshots
 Feature	Screenshot
 Home Screen	
 Budget Setup	
@@ -279,18 +92,18 @@ AI Insights
 Achievements	
 Replace link-to-image with actual image URLs.
 
-System Artifacts and Technical Design
-Technical Overview:
+##System Artifacts and Technical Design
 
+###Technical Overview:
 Architecture: Implemented using Flutter with Firebase integration for storage and authentication.
 Design Pattern: Follows the MVVM (Model-View-ViewModel) architecture for clear separation of concerns.
 Database: Uses Firebase Firestore for storing user expense data securely.
-Artifacts:
 
+###Artifacts:
 Codebase: Refer to the repository for complete code documentation.
 Designs: Mockups and designs can be accessed in the /designs folder.
 
-Development Process
+##Development Process
 Project Management: Managed using a Kanban board to track milestones and feature development.
 Tools Used: Utilized GitHub for version control and issue tracking, Firebase for backend services, and Trello for agile task management.
 Process Flow:
@@ -298,8 +111,8 @@ Planning: Initial project scoping and requirement gathering.
 Development: Feature-by-feature development with thorough testing.
 Testing: User acceptance and functionality tests before release.
 
-Contributing
+##Contributing
 Contributions are welcome! Fork the repository and create a pull request for major updates.
 
-License
+##License
 This project is licensed under the MIT License.
