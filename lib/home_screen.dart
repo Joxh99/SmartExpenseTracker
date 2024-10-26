@@ -154,7 +154,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 padding: const EdgeInsets.all(16.0),
                 child: DropdownButton<String>(
                   value: selectedCategory,
-                  items: ['All', 'Food', 'Transport', 'Utilities', 'Entertainment', 'Medical', 'Shopping']
+                  items: ['All', 'Food', 'Transport', 'Utilities', 'Entertainment', 'Medical', 'Shopping', 'Holiday', 'Misc']
                       .map((category) => DropdownMenuItem(
                     child: Text(category),
                     value: category,
