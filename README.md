@@ -95,12 +95,11 @@ Generate Reports: Access monthly and category-wise expense reports for detailed 
 
 ##Screenshots
 Feature	Screenshot 
-Home Screen	![Home Screen](assets/Home_screen.png) 
-Budget Setup	
-AI Insights	
-Achievements	
-Replace link-to-image with actual image URLs.
-
+Home Screen	![Home screen](assets/Home_screen.png) 
+Expense Trends ![Bar Chart](assets/bar_chart.png)  	
+AI Insights	![AI Insights](assets/ai_insights.png)
+Challenege ![Challenge](assets/challenge.png)
+Recurring Expense ![recurring Expense](assets/recurring_expense.png)
 
 ##System Artifacts and Technical Design
 
