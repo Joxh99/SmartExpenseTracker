@@ -95,7 +95,7 @@ Generate Reports: Access monthly and category-wise expense reports for detailed 
 
 ##Screenshots
 Feature	Screenshot 
-Home Screen	![Home screen](assets/Home_screen.png) 
+Home Screen	<img src="assets/home_screen.png" width="300"/>  
 Expense Trends ![Bar Chart](assets/bar_chart.png)  	
 AI Insights	![AI Insights](assets/ai_insights.png)
 Challenege ![Challenge](assets/challenge.png)
