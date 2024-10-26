@@ -94,8 +94,8 @@ Generate Reports: Access monthly and category-wise expense reports for detailed 
 
 
 ##Screenshots
-Feature	Screenshot
-Home Screen	
+Feature	Screenshot 
+Home Screen	![Home Screen](assets/Home_screen.png) 
 Budget Setup	
 AI Insights	
 Achievements	
