@@ -57,25 +57,25 @@ flutter run
 
 ##Features
 
-###Expense Tracking:
+Expense Tracking:
 Track daily expenses with categories and amounts.
 
-###Budgeting and Notifications:
+Budgeting and Notifications:
 Set and manage category-specific budgets and receive alerts when limits are exceeded.
 
-###Recurring Expenses Management:
+Recurring Expenses Management:
 Manage recurring expenses with customizable frequencies (e.g., daily, weekly).
 
-###AI-Driven Insights:
+AI-Driven Insights:
 View spending recommendations and alerts for unusual spending patterns.
 
-###Gamification Elements:
+Gamification Elements:
 Earn badges for budgeting milestones and consistent tracking.
 
-###Data Export and Reports:
+Data Export and Reports:
 Generate and export expense reports by month or category.
 
-###User Customization:
+User Customization:
 Customize settings such as currency, notification preferences, and dark mode.
 
 
