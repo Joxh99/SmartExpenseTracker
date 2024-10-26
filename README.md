@@ -2,6 +2,7 @@
 
 A cross-platform mobile app built with Flutter to help users manage their expenses effectively with AI-driven categorization and gamification elements. Designed for students, professionals, and families, the app offers an intuitive interface to track spending patterns, set budgets, and earn achievements.
 
+
 ##Table of Contents
 
 System Overview
@@ -14,15 +15,18 @@ Screenshots
 System Artifacts and Technical Design
 Development Process
 
+
 ##System Overview
 
 The Smart Expense Tracker integrates AI and gamification for a unique expense-tracking experience. The app simplifies budgeting by automating categorization, providing real-time insights, and encouraging financial discipline through achievements.
+
 
 ##Key Components
 
 AI Categorization: Automatically categorizes expenses using TensorFlow Lite, helping users avoid manual entry.
 Gamification: Encourages users to manage finances actively by awarding badges for milestones.
 Real-Time Insights: Visualizations and insights on spending patterns enable better financial decision-making.
+
 
 ###Installation and Setup
 
@@ -34,6 +38,7 @@ Firebase: Set up Firebase for Android and iOS platforms.
 
 ######Steps
 Clone the Repository:
+
 git clone https://github.com/Joxh99/SmartExpenseTracker.git
 
 cd SmartExpenseTracker
@@ -47,6 +52,7 @@ Download GoogleService-Info.plist for iOS and place it in ios/Runner.
 
 Run the App:
 flutter run
+
 
 ##Features
 
@@ -71,6 +77,7 @@ Generate and export expense reports by month or category.
 ###User Customization:
 Customize settings such as currency, notification preferences, and dark mode.
 
+
 ##Firebase Configuration
 Ensure Firebase authentication and Firestore database are correctly set up in your Firebase Console to enable full functionality.
 
@@ -78,11 +85,12 @@ Android: Place google-services.json in the android/app directory.
 iOS: Place GoogleService-Info.plist in the ios/Runner directory.
 
 
-###Usage
+##Usage
 Add Expenses: Navigate to the expense screen, enter details, and save.
 Set Budgets: Define budgets for different categories in the settings.
 Track Progress: View expense trends and earn badges as you track your spending.
 Generate Reports: Access monthly and category-wise expense reports for detailed insights.
+
 
 ##Screenshots
 Feature	Screenshot
@@ -91,6 +99,7 @@ Budget Setup
 AI Insights	
 Achievements	
 Replace link-to-image with actual image URLs.
+
 
 ##System Artifacts and Technical Design
 
@@ -103,6 +112,7 @@ Database: Uses Firebase Firestore for storing user expense data securely.
 Codebase: Refer to the repository for complete code documentation.
 Designs: Mockups and designs can be accessed in the /designs folder.
 
+
 ##Development Process
 Project Management: Managed using a Kanban board to track milestones and feature development.
 Tools Used: Utilized GitHub for version control and issue tracking, Firebase for backend services, and Trello for agile task management.
@@ -111,8 +121,10 @@ Planning: Initial project scoping and requirement gathering.
 Development: Feature-by-feature development with thorough testing.
 Testing: User acceptance and functionality tests before release.
 
+
 ##Contributing
 Contributions are welcome! Fork the repository and create a pull request for major updates.
+
 
 ##License
 This project is licensed under the MIT License.
