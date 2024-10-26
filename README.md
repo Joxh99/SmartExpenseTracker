@@ -1,4 +1,5 @@
 #Smart Expense Tracker (Accountant)
+![App Logo](assets/logo.png)
 
 A cross-platform mobile app built with Flutter to help users manage their expenses effectively with AI-driven categorization and gamification elements. Designed for students, professionals, and families, the app offers an intuitive interface to track spending patterns, set budgets, and earn achievements.
 
