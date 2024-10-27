@@ -7,14 +7,15 @@ A cross-platform mobile app built with Flutter to help users manage their expens
 ##Table of Contents
 
 - [System Overview](#system-overview)
-Installation and Setup
-Features
-Contributing
-Firebase Configuration
-Usage
-Screenshots
-System Artifacts and Technical Design
+- [Installation and Setup](#installation-and-setup)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Firebase Configuration](#firebase-configuration)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [System Artifacts and Technical Design](#system-artifacts-and-technical-design)
 - [Development Process](#development-process)
+
 
 
 ##System Overview
