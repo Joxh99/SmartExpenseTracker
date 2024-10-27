@@ -6,7 +6,7 @@ A cross-platform mobile app built with Flutter to help users manage their expens
 
 ##Table of Contents
 
-System Overview
+- [System Overview](#system-overview)
 Installation and Setup
 Features
 Contributing
