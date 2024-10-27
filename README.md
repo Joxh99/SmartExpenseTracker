@@ -18,7 +18,7 @@ A cross-platform mobile app built with Flutter to help users manage their expens
 
 
 
-- [System Overview](#system-overview)
+##System Overview
 
 The Smart Expense Tracker integrates AI and gamification for a unique expense-tracking experience. The app simplifies budgeting by automating categorization, providing real-time insights, and encouraging financial discipline through achievements.
 
