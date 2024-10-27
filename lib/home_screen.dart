@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:path/path.dart' as p;
 import 'add_expense_screen.dart';
 import 'expense_chart.dart';
 import 'calendar_screen.dart';
@@ -14,6 +13,7 @@ import 'database_helper.dart';
 import 'package:pdf/widgets.dart' as pw;
 import 'dart:io';
 import 'package:path_provider/path_provider.dart';
+import 'Badge_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   final Database database;
@@ -113,6 +113,16 @@ class _HomeScreenState extends State<HomeScreen> {
           IconButton(
             icon: const Icon(Icons.picture_as_pdf),
             onPressed: _showDownloadDialog,
+          ),
+          IconButton(
+            icon: const Icon(Icons.badge), // Use an appropriate icon for badges
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => BadgeScreen(),
+                ),
+              );
+            },
           ),
           IconButton(
             icon: const Icon(Icons.settings),
@@ -487,5 +497,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-
-

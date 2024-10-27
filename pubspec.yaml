@@ -37,3 +37,6 @@ flutter:
   # Assets can be added here
   assets:
     - assets/logo.png
+    - assets/budget_master.png
+    - assets/consistent_tracker.png
+    - assets/saving_star.png
