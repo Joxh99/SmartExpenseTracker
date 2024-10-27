@@ -13,7 +13,7 @@ import 'database_helper.dart';
 import 'package:pdf/widgets.dart' as pw;
 import 'dart:io';
 import 'package:path_provider/path_provider.dart';
-import 'Badge_screen.dart';
+import 'badge_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   final Database database;
