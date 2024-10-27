@@ -14,7 +14,7 @@ Firebase Configuration
 Usage
 Screenshots
 System Artifacts and Technical Design
-Development Process
+- [Development Process](#development-process)
 
 
 ##System Overview
